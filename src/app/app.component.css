@@ -1,0 +1,90 @@
+
+#message,
+    #title {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    #message {
+        top: 10px;
+    }
+
+    #title {
+        bottom: 10px;
+    }
+
+    #states a {
+        cursor: pointer;
+    }
+
+    #states a:hover {
+        color: #FFFFFF;
+    }
+
+    #states a line {
+        stroke: #444;
+        stroke-width: 1px;
+    }
+
+    #maplocation {
+        display: hidden;
+    }
+
+    .CCMcredit {
+        float: right;
+        position: relative;
+        top: -10px;
+        color: #425957;
+    }
+
+    .CCMcredit a {
+        color: #0000FF;
+    }
+
+    #states a path {
+        transition: fill .5s ease;
+        -moz-transition: fill .5s ease;
+        -webkit-transition: fill .5s ease;
+        fill: #11AFD6;
+    }
+
+    #states a:hover path {
+        transition: fill .5s ease;
+        -moz-transition: fill .5s ease;
+        -webkit-transition: fill .5s ease;
+        fill: #425957 !important;
+    }
+
+    #states a:hover path {
+        cursor: pointer;
+        fill: #425957;
+    }
+
+    #states a text {
+        cursor: pointer;
+        fill: #222222;
+        display: initial;
+    }
+
+    #states a:hover text {
+        fill: #EAEAEA;
+        color: #EAEAEA;
+    }
+
+    #states a.inverse text:hover {
+        fill: #EAEAEA;
+    }
+
+    #states a.inverse text {
+        fill: #222222;
+    }
+
+    .CCMcredit a {
+        color: #11AFD6;
+    }
+
+    #states a text {
+        font-size: 12px;
+    }
